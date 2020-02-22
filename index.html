@@ -1,16 +1,18 @@
+<!DOCTYPE html>
 <html>
-<head>
-</head>
 <body>
-<h1>nr. 61592</h1>
-<form>
-<label for="URL">URL:</label>
-<input type="text" id="URL" name="URL"><br><br>
-<label for="URL">EMAIL:</label>
-<input type="text" id="EMAIL" name="EMAIL"><br><br>
-<input type="text id="SHOW">
-<input type="submit" value="SEND">
-<input type="button" value="SAVE">
-</form>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
 </body>
 </html>
